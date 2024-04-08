@@ -216,7 +216,7 @@ class PineconeIndex:
             self.init_index()
         
         # Dropox connection
-        access_token = 'sl.Bywsp9_AFUoRFGi8jGOGTu4tx-OrcwV4t4emXFqNj8M1ajlFoZ6SgEJy-5R1HdkqWHlIZHy3PpxOljhg3TkAUAyHa3lCRitmiEhdocZ3La_K62pwBGxZx6db4vH4Rlhn10mwQ4ZrfkG3ipyZKFoWHbc'
+        access_token = ''
         dbx = dropbox.Dropbox(access_token)
 
         #Call the function to start the recursive upload
